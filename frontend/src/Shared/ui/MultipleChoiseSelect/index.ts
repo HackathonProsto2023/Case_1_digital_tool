@@ -1,0 +1,1 @@
+export { MultipleChoiseSelect } from './MultipleChoiseSelect'

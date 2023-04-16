@@ -1,0 +1,10 @@
+image {
+    display: block;
+    border-radius: var(--default-border-radius);
+    max-width: var(--max-width);
+    max-height: var(--max-height);
+
+    .circle {
+        border-radius: var(--avatar-border-radius);
+    }
+}

@@ -1,0 +1,32 @@
+@import "/src/App/styles/index";
+
+.form {
+    margin: 40px 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--secondary);
+}
+
+.title {
+    margin-bottom: 20px;
+    font-size: var(--fs-large);
+    text-align: center;
+    color: var(--font-color);
+}
+
+.fields {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.link {
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #000;
+    color: black;
+    border-radius: 1px solid black;
+}

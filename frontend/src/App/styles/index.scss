@@ -1,0 +1,18 @@
+@import "./reset";
+@import "./variables/fonts";
+@import "./variables/zIndex";
+@import "./variables/images";
+@import "./variables/borders";
+@import "./themes/dark";
+@import "./themes/light";
+
+body {
+    font-family: var(--font-poppins);
+}
+
+.app {
+    background-color: var(--primary);
+    color: var(--secondary);
+    min-height: 100vh;
+    transition: 0.3s;
+}

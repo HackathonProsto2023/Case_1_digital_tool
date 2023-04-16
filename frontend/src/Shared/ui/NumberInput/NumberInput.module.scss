@@ -1,0 +1,10 @@
+@import "/src/App/styles/index";
+
+.input {
+    background-color: var(--primary);
+    color: var(--font-color);
+
+    &::placeholder {
+        color: var(--font-color);
+    }
+}

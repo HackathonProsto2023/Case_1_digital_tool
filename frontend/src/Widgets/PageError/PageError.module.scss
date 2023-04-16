@@ -1,0 +1,16 @@
+@import "/src/App/styles/index";
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.info {
+    font-family: var(--font-poppins);
+    font-size: var(--fs-huge);
+    color: var(--secondary);
+}
