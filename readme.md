@@ -13,6 +13,6 @@ backend/career/settings.py
 5. python manage.py runserver
 
 ### Фронтенд
-1. cd recurter
+1. cd frontend
 2. npm i
 3. npm run start
